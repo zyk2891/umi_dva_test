@@ -1,0 +1,21 @@
+@bz: border-box;
+
+.main{
+  box-sizing: @bz;
+  padding: 10px;
+  margin: 10px;
+}
+
+.clearfix{
+  zoom: 1;
+  &:after{
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+
