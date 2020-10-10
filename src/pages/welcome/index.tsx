@@ -46,11 +46,19 @@ class Welcome extends React.Component<welcomeProps,welcomeStates> {
     })
   }
 
+  valueChange123 = (e:any) => {
+    console.log(e.target.value);
+    this.setState({
+      name: '123',
+      welcome: '123'
+    })
+  }
+
   render() {
     return (
       <div className={styles.main}>
         <Input placeholder={this.state.name} value={this.state.name} onChange={(e)=>{this.valueChange(e)}}/>
-        <Input placeholder={this.state.welcome} value={this.state.welcome} onChange={(e)=>{this.valueChange(e)}}/>
+        <Input placeholder={this.state.welcome} value={this.state.welcome} onChange={(e)=>{this.valueChange123(e)}}/>
         <Button onClick={this.clickThis} type="primary">click this</Button>
         <Table/>
       </div>

@@ -26,7 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b41369-0237-4a8f-a14d-871cb0eb6cd6" name="Default Changelist" comment="Merge branch 'master' of github.com:zyk2891/umi_dva_test into main&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <list default="true" id="e2b41369-0237-4a8f-a14d-871cb0eb6cd6" name="Default Changelist" comment="small change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +45,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -55,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602318485495</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="small change">
+      <created>1602319631556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602319631556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,7 +98,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of github.com:zyk2891/umi_dva_test into main&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:zyk2891/umi_dva_test into main&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="small change" />
+    <option name="LAST_COMMIT_MESSAGE" value="small change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="595" y="280" key="MultipleFileMergeDialog" timestamp="1602318462526">
@@ -94,10 +110,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602318251968" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1602318572949">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1602319633913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602318572949" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602319633913" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602318472593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
