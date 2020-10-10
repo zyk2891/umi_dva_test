@@ -2,13 +2,13 @@ import React from 'react'
 import styles from './index.less'
 import {Table, Input, Button} from 'antd'
 import { connect } from "dva";
-import {Dispatch} from 'redux';
+import {AnyAction, Dispatch} from 'redux';
 import {welcomeItem} from '@/models/welcome/welcome';
 import {Loading} from "@@/plugin-dva/connect";
 
 interface welcomeProps {
   welcome:welcomeItem
-  dispatch: Dispatch
+  dispatch: Dispatch<AnyAction>
   loading: Loading
 }
 
